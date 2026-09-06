@@ -2638,8 +2638,9 @@ while ch != 6:
     else:
         print("Invalid choice")
     else:
-        print("dealete sys")
-                
+        print("if sys")
+    else:
+        print("until failure") 
         import sys
 def makeit100x():
     rows = int(input("Enter number of contacts: "))
