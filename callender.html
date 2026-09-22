@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Clock</title>
+<style>
+    body {
+        background: #111;
+        color: cyan;
+        font-family: Arial;
+        text-align: center;
+        padding-top: 140px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    #clock {
+        font-size: 75px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+</style>
+</head>
+<body>
+<h1>Digital Clock</h1>
+<div id="clock">00:00:00</div>
+    <script>
+    function updateClock() {
+        let time = new Date();
+        let hour = time.getHours();
+        let minute = time.getMinutes();
+        let second = time.getSeconds();
